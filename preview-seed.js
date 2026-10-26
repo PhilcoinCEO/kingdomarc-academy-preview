@@ -1,0 +1,1 @@
+try{ if(!localStorage.getItem('KA_MOCK_DB')) localStorage.setItem('KA_MOCK_DB', JSON.stringify({session:null,profiles:{'u-admin':{id:'u-admin',email:'lopez@kingdomarc.com',display_name:'Apóstol Jerry Lopez',role:'admin'}},docs:{},pins:{'u-admin':'246810'},pending:null})); }catch(e){}
